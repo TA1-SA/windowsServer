@@ -1,0 +1,21 @@
+Domain -->local Network   (abadnet.edu)
+  
+Domain controller -->
+	spec:	
+		Os-->windows server 
+		  enable feature -->Active directory domain service (AD DS ) 
+				-->Domain Name system (DNS)
+
+
+DHCP ---> distribute Ip Address 
+
+
+WSUS --->deploy windows update 
+
+WDS --->deploy windows OS   
+
+Network Load balancing ---> disribute traffic over the network 
+
+Failover clustering --->   1 active & 1 stand by server  -->group server work togather to increase availabiltiy
+
+active directory right management service (ADRMS)-->protect office file out of domain 
