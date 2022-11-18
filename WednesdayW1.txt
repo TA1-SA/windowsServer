@@ -1,0 +1,37 @@
+				Active directory users and computers 
+
+	Organazitional unit ----> departments    IT ,Sales,Hr 
+		groups ---->IT ,Sales ,HR
+			user--->mohammad ,ahmed  
+
+**add two users per group 
+
+
+group scope:
+1-local group -->add local users of the pc/server   
+2-domain local-->add domain user to this group  
+3-global--->add all user within the forest   
+4-universal-->all all user within the forest and outside trusted forest 
+
+
+group type :
+1-security --->server /  pc 
+2-distribution -->exchange server [email server]
+
+
+**Server manager--->tools--->group policy -->forest-->domain--->right click on default  domain policy-->computer configuration--->windows setting--->security setting-->acount policy--->password policy---> change password history to 3 
+max password age to 30
+
+click on account lockout policy -->account lockout threshold -->3  
+
+
+
+
+
+
+
+
+
+
+
+
