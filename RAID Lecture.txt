@@ -1,0 +1,133 @@
+=================================
+Week2 Lecture 1 
+=================================
+
+*File Server : Central Sever in computer network used to share files to connected client
+
+
+10 physical disks ----> 100 G ---->1 TB
+
+c: --->  disk 1   --->100G
+
+
+9 physical Disk --->900GB 
+
+    2-->   100G 3-->100GB    4-->100G    5-->100G1-->100G    6-->100G1-->100G    7-->100G 8-->100G    9-->100G
+
+
+
+App--->250GB ----> 3 Disks 
+
+RAID -->redudunt array of indepent disk 
+
+=========================
+RAID 0 (stripping)  -Not used in real life scenario
+=========================
+App--->250GB ----> 3 Disks   
+81GB *3  
+
+Volume E: 250GB        
+
+you want to write 1 GB
+ disk1 .33G   disk2 .33G  disk3  .33G 
+
+advantges
+---------------
+1-Increase the disk resource 3 times 
+
+
+disadvantage 
+---------------
+1- if one disk fail , no data will reside 
+
+
+
+    2-->19G    3-->19GB       4-->19G        5-->100G      6-->100G   7-->100G 8-->100G    9-->100G
+
+=======================
+RAID 1 (Mirroring)[not used in real life scenario]
+=======================
+
+2 and only 2 disks (1 used to read&write ,other is backup)
+
+  5-->100G      6-->100G
+
+
+
+Volume F: 100G   [disk 5 100G          disk 6  100G]
+
+
+Advantage
+--------------
+1- one disk as backup 
+
+
+disadvantage 
+-----------
+1-you cant add more than 2  disks 
+
+
+
+
+==========================================
+RAID 5 (used by small to mid size company)
+=========================================
+at least 3 disks 
+ 
+
+
+   2-->19G    3-->19GB       4-->19G   
+
+
+
+Volume G:(200GB)  out of   7-->100G     8-->100G     9-->100G
+   
+
+1G to be written in volume G 
+
+disk 7 		disk 8 		disk 9 
+.5GB		.5GB		1GBp
+
+1G to be written in volume G 
+
+disk 7 		disk 8 		disk 9 
+.5GB		.5GB		1GBp
+.5GB		1GBp		.5GB
+
+1G to be written in volume G 
+
+disk 7 		--disk 8 		--disk 9 
+.5GB		--.5GB		--1GBp
+.5GB		--1GBp		--.5GB
+1GBp		--.5GB		--.5GB
+
+advantages
+--------------
+1-Increase the disk resource 3 times 
+2-1 disk will remain as a backup
+
+
+Disadvanges 
+---------------
+1-just one disk as backup 
+
+=========================================
+RAID 1+0(most used in real life scenario)
+=========================================
+
+at least 4 disks
+
+
+disk 10 -->100GB   disk 11 ---->100GB  disk 12 --->100GB    disk 13---> 100GB 
+
+
+Volume H: 200GB 
+
+1G to be written on Volume H:
+
+disk 10        disk 11	    disk 14     disk 15	
+.25G 		.25G        .25GB	.25GB
+
+disk 12         disk 13     disk 16     disk  17
+.25GBp		.25Gp        .25GBP	.25GBP
+

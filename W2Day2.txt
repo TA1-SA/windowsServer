@@ -1,0 +1,27 @@
+==============
+Week2 Day2 
+==============
+
+  *configure file server :
+
+1-change computer name 
+2-set static ip 
+3-change time zone 
+4-join to domain 
+
+----------
+*adding 9 disks :
+1-take the disks online (disk management)
+2-choose partition style(INTIALIZE)  :	
+	A-MBR  max  size 2tb  4 primary partion C D E F    
+	B-GPT   max size : 18 exabyte  128 primary partition 
+3-choose the RAID  type :
+	RAID 0 (stripped volume)   RAID 1 (Mirrored)  RAID 5 
+
+scenario
+
+get all the disks online
+make a new simple volume from one disk  1G 1G 500M 500M 250M 250M
+make spanned volume from 4 and 5 GB disk
+make raid 1 from two disks
+make raid 5 from 3 disks

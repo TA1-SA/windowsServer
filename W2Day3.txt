@@ -1,0 +1,54 @@
+============================
+W2Day3 
+============================
+
+Sharing files :
+
+NTFS Permission --->tab shareing  --->tab security  --->least privilege   eg:b tab sec  Read     tab shareing full controll  => read 
+
+tab Sharing 
+--------------
+Read 
+Change 
+Full Controll 
+
+
+tab Security
+---------------
+full control
+list
+execute 
+read 
+write 
+-------------------
+Map Network Drive    //fs-22/IT 
+
+Z:IT ---->//fs-22/IT
+
+
+shortcut for shared folder appears in my computer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
