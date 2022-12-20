@@ -1,0 +1,18 @@
+				================
+	
+					LAB 1
+
+				================
+1-create 2 VMs on azure
+2- one for installing and configuring Active Directory
+3- second one called vm1 [windows server] and join it to domain 
+
+				duration : 1.20 hour 
+
+
+
+notes : 
+1-you must use one bastion
+2-direct connecting [dont use peering] 
+3-dont change the ip of ms azure 
+4-you must use the internal[private ip] ip when communicating with server 
