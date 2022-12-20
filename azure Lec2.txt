@@ -1,0 +1,34 @@
+==================
+Azure Portal 
+==================
+
+used to manage ms public cloud 
+
+
+*Services : 
+1-Azure AD
+2-VM
+3-Azure firewall
+4-SQL Database 
+5-Cosmos DB
+6-App Services 
+7-Storage Account
+
+*LAB 
+1-Create  2 VMs (windows) 
+
+=================
+Vnetwork
+=================
+if two servers reside in two diff network ,there will not be a direct connection 
+
+
+=============================
+LAB 1
+=============================
+1-create vm 
+2-configure your Domain 
+3-create 2nd vm and join it to domain 
+
+
+
